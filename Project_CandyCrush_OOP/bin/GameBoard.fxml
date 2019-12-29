@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="400" maxWidth="570" minHeight="400" minWidth="570" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+</GridPane>

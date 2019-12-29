@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="150" prefWidth="562" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150." fitWidth="562.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/banner.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreValue" layoutX="260.0" layoutY="120.0" prefHeight="21.0" prefWidth="34.0" text="0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="205.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="timeValue" layoutX="95.0" layoutY="120.0" text="0" />
+      <Text layoutX="14.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time left :" />
+   </children>
+</AnchorPane>
